@@ -71,7 +71,7 @@ public class VueBoutonsSysteme implements ObservateurControleur{
 							System.out.println("Mauvaise saisie");
 							demande = saisirDemandeRequeteExterne();
 						}
-						while(etage == controleur.nombreEtage() && demande.equals("monter")){
+						while(etage == controleur.nombreEtage() && demande.equals("m")){
 							System.out.println("Mauvaise saisie");
 							demande = saisirDemandeRequeteExterne();
 						}
